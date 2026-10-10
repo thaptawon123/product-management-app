@@ -1,0 +1,36 @@
+{
+  "name": "product-management-app",
+  "version": "1.0.0",
+  "description": "Product Management Web Application",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build frontend",
+    "lint": "node --check server.js backend/config/database.js backend/controller/productController.js backend/model/productModel.js backend/router/productRouter.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "cors": "^2.8.5",
+    "daisyui": "^5.7.39",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lucide-react": "^1.53.0",
+    "pg": "^8.23.0",
+    "pg-hstore": "^2.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router": "^8.4.0",
+    "sequelize": "^6.37.8",
+    "sweetalert2": "^11.26.25",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1"
+  }
+}

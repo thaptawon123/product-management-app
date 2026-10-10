@@ -1,0 +1,7 @@
+{
+  "name": "Product Management App",
+  "description": "Full-stack product management web application with Express REST API and React interface.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
